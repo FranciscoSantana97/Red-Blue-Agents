@@ -1,0 +1,8 @@
+[
+	{
+        "TYPE" : "REMOTE", "CMD_TYPE" : "CMD", "CMD" : "sudo -l\n", "RECV" : "sudo"
+	},
+    {
+        "TYPE" : "LOCAL", "CMD_TYPE" : "FILE", "CMD" : "python attacks/misudo/run.py", "RECV" : "interface"
+    }
+]

@@ -1,0 +1,2 @@
+drop tcp any any -> any any (msg:"netcat traditional Detected"; content:"nc.traditional"; nocase; sid:100001;)
+drop tcp any any -> any any (msg:"bin/bash Detected"; content:"-e /bin/bash"; nocase; sid:100002;)

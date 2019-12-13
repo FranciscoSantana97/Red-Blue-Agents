@@ -1,0 +1,16 @@
+{
+	"file_list" : [
+		{
+			"file_path":"path.txt",
+			"keywords" : [
+				"aa", "bb", "cc"
+			]
+		},
+		{
+			"file_path":"path2",
+			"keywords" : [
+				"aa", "bb", "cc"
+			]
+		}
+	]
+}

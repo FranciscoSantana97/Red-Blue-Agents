@@ -1,0 +1,17 @@
+{
+  "queries": {
+    "file_events": {
+      "query": "SELECT * FROM file_events;",
+      "removed": false,
+      "interval": 30
+    }
+  },
+  "file_paths": {
+    "home": [
+      "/home/%%"
+    ],
+    "hello.txt": [
+      "/home/nairns/hello.txt"
+    ]
+  }
+}

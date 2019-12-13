@@ -1,0 +1,5 @@
+[
+    {
+        "TYPE" : "LOCAL", "CMD_TYPE" : "FILE", "CMD" : "python attacks/cve20155958/run.py", "RECV" : "shell"
+    }
+]

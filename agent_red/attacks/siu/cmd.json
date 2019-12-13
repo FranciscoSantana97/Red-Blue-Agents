@@ -1,0 +1,12 @@
+[
+	{
+		"TYPE" : "REMOTE", "CMD_TYPE" : "CMD", "CMD": "echo $(id -u)\n", "RECV" : "privilege"
+	},
+	{
+		"TYPE" : "REMOTE", "CMD_TYPE" : "CMD", "CMD" : "ls /usr/bin; ls /usr/sbin\n", "RECV" : "binaries"
+	},
+	{
+        "TYPE" : "REMOTE", "CMD_TYPE" : "CMD", "CMD" : "echo $PWD\n", "RECV" : "cwd"
+	}
+
+]

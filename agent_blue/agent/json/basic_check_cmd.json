@@ -1,0 +1,6 @@
+{
+	"commands" : [
+					"sudo ls",
+					"touch aaa.txt"
+	]
+}

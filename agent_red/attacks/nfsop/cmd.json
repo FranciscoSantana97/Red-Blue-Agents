@@ -1,0 +1,5 @@
+[
+    {
+        "TYPE" : "LOCAL", "CMD_TYPE" : "FILE", "CMD" : "python attacks/nfsop/run.py", "RECV" : "interface"
+    }
+]

